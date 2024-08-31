@@ -1,0 +1,172 @@
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, p {
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.big-text {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.med-text {
+    font-size: 30px;
+}
+
+.normal-text {
+    font-size: 20px;
+}
+
+.small-size {
+    font-size: 14px;
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-style: 20px;
+    font-weight: bold;
+}
+
+.button {
+    padding: 10px 28px;
+    background: black;
+    color: #5e45b8;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.Video {
+    position: relative; /* Rendi la .Video il contesto per il posizionamento */
+    height: 100vh; /* Imposta l'altezza della sezione alla dimensione della finestra */
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 100%;
+    overflow: hidden; /* Nasconde eventuali overflow */
+    background: linear-gradient(0 deg, rgba(0,0,0,.2), rgba(0,0,0,0.1));
+    background-size: cover;
+}
+
+.Video-content {
+    width: 100%;
+    max-width: 800px; /* Limita la larghezza massima per un layout migliore */
+    text-align: center; /* Centra il testo */
+    z-index: 1; /* Porta il contenuto davanti al video */
+    margin-top: 50px; /* Aggiunge spazio sopra il contenuto per spostarlo più in basso */
+    color: white; /* Cambia colore del testo per renderlo visibile sul video */
+}
+.Video-content h1,
+.Video-content p{color:#fff}
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 3%; /* Sposta il video verso il basso */
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+
+.header {
+    background: rgba(49, 24, 5, 0.8); /* Colore di sfondo più opaco */
+    z-index: 2;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between; /* Spaziatura tra gli elementi del menu */
+    align-items: center; /* Allinea verticalmente al centro */
+    background: #311805a1;
+}
+
+.cta {
+    flex: 0 0 auto; /* Mantiene la CTA nella sua dimensione naturale */
+}
+
+.menu {
+    flex: 1; /* Occupa tutto lo spazio disponibile */
+    display: flex;
+    justify-content: center; /* Centra il menu */
+    font-size: 17px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 30px; /* Spaziatura tra gli elementi */
+}
+
+.menu li a {
+    padding: 15px;
+    display: block;
+}
+
+.logo {
+    flex: 0 0 auto; /* Mantiene il logo nella sua dimensione naturale */
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #7fffd4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #5fcbba;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    
+}

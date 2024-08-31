@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    background-color: #f5f5f5; /* Colore di sfondo (opzionale) */
+    background-image: url(https://wallpapers.com/images/hd/graphic-design-background-7t4u13mb5mleh6c0.jpg);
+    height: 100vh; /* Imposta l'altezza del body al 100% della viewport */
+    align-items: center; /* Centra verticalmente il contenuto */
+    justify-content: center; /* Centra orizzontalmente il contenuto */
+    display: flex; /* Imposta il body come contenitore flex */
+
+
+}
+
+h1, h2, p, form{
+    text-align: center;
+  }
+
+.content {
+    width: 90%; /* Imposta una larghezza per il contenuto */
+    max-width: 1200px; /* Limita la larghezza massima per schermi grandi */
+    max-height: 100vh;
+    margin: 0 auto; /* Centra orizzontalmente il contenuto */
+    background-color: white; /* Colore di sfondo del contenuto */
+    padding: 40px; /* Aggiungi padding intorno al contenuto */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Aggiungi un'ombra per un effetto elevato */
+    border-radius: 10px; /* Aggiungi angoli arrotondati */
+         /* Assicura che padding e bordo siano inclusi nella larghezza totale */ 
+}
+
+.header {
+    width: 100%;
+    background: #311805a1;
+    padding: 30px;
+}
+
+h1, h2, p {
+    margin-top: 0;
+}
+
+form {
+    max-width: 600px; /* Larghezza massima del form */
+    margin: 0 auto; /* Centra il form orizzontalmente */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    
+}
+
+form label {
+    display: inline-block;
+    width: 120px; /* Larghezza fissa per allineare le etichette */
+    text-align: right; /* Allinea il testo delle etichette a destra */
+    padding-right: 10px;
+    vertical-align: top; /* Allinea le etichette in cima rispetto al textarea */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: calc(100% - 140px); /* Larghezza dei campi di input */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical; /* Permette di ridimensionare il textarea verticalmente */
+}
+
+form input[type="submit"] {
+    display: block;
+    width: auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
